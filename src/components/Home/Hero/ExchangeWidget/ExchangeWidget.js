@@ -70,6 +70,7 @@ class ExchangeWidget extends Component {
         name: '',
         payment_id: this.props.paymentId.paymentId,
         destinationTag: this.props.destinationTag.destinationTag,
+        memo: this.props.memo.memo,
       },
     };
 

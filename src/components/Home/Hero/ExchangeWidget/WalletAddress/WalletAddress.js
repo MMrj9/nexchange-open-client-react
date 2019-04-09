@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import { errorAlert, setWallet, selectCoin, fetchPrice } from 'Actions/index.js';
+import { errorAlert, setWallet } from 'Actions/index.js';
 import validateWalletAddress from 'Utils/validateWalletAddress';
-import AddressHistory from './AddressHistory/AddressHistory';
 import styles from './WalletAddress.scss';
 import { I18n } from 'react-i18next';
 import i18n from '../../../../../i18n';
@@ -17,11 +16,7 @@ class WalletAddress extends Component {
 
     this.state = { address: '', firstLoad: true , showHistory: false};
     this.handleChange = this.handleChange.bind(this);
-    this.handleFocus = this.handleFocus.bind(this);
-    this.handleBlur = this.handleBlur.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
-    this.setAddress = this.setAddress.bind(this);
-    this.setCoin = this.setCoin.bind(this);
   }
 
   validate = (address, receiveCoin) => {
@@ -141,10 +136,7 @@ class WalletAddress extends Component {
                 className={`form-control ${styles.input}`}
                 id="withdraw-addr"
                 onChange={this.handleChange}
-                onFocus={this.handleFocus}
-                onBlur={this.handleBlur}
                 value={this.state.address}
-                autoComplete="off"
                 placeholder={t('generalterms.youraddress', { selectedCoin: coin })}
               />
               {this.state.showHistory ?
@@ -158,8 +150,8 @@ class WalletAddress extends Component {
   }
 }
 
-const mapStateToProps = ({ selectedCoin, wallet, pairs }) => ({ selectedCoin, wallet, pairs });
-const mapDispatchToProps = dispatch => bindActionCreators({ errorAlert, setWallet, selectCoin, fetchPrice }, dispatch);
+const mapStateToProps = ({ selectedCoin, wallet }) => ({ selectedCoin, wallet });
+const mapDispatchToProps = dispatch => bindActionCreators({ errorAlert, setWallet }, dispatch);
 
 export default connect(
   mapStateToProps,

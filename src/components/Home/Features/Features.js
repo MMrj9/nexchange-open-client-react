@@ -9,9 +9,10 @@ const Features = () => {
       {t => (
         <div className="container">
           <div className={`row ${styles.container}`}>
-            <div className="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
               <h1 className={`title ${styles.nomargin}`}>OUR VALUES.</h1>
               <h1 className={`title ${styles.nomargin}`}>WE ARE SERIOUS ABOUT THEM.</h1>
+              <br/>
               <span className={styles.subtitle}>We Believe Cryptocurrency Is The Future Of Finance And Want 
                 To Provide All British Citizens With 
                 The Opportunity To Be Part Of The Movement And Gains Easy Trusted And Transparent Access To This Resource.</span>
@@ -19,45 +20,40 @@ const Features = () => {
             <div className={styles.features}>
               <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>
                 <div className={styles.icon}>
-                  <img src="/img/instant.svg" alt="instant" />
-                </div>
-                <p className={styles.name}>{t('features.feature11')}</p>
-                <p className={styles.description}>{t('features.feature12')}</p>
-              </div>
-              <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>
-                <div className={styles.icon}>
-                  <img src="/img/secure.svg" alt="secure" />
-                </div>
-                <p className={styles.name}>{t('features.feature21')}</p>
-                <p className={styles.description}>{t('features.feature22')}</p>
-              </div>
-              <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>
-                <div className={styles.icon}>
-                  <img src="/img/simple.svg" alt="simple" />
-                </div>
-                <p className={styles.name}>{t('features.feature31')}</p>
-                <p className={styles.description}>{t('features.feature32')}</p>
-              </div>
-              <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>
-                <div className={styles.icon}>
-                  <img src="/img/anonymous.svg" alt="anonymous" />
-                </div>
-                <p className={styles.name}>{t('features.feature41')}</p>
-                <p className={styles.description}>{t('features.feature42')}</p>
-              </div>
-              <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>
-                <div className={styles.icon}>
                   <img src="/img/transparent.svg" alt="transparent" />
                 </div>
-                <p className={styles.name}>{t('features.feature51')}</p>
-                <p className={styles.description}>{t('features.feature52')}</p>
+                <p className={styles.name}>TRANSPARENT</p>
+                <p className={styles.description}>We Are Upfront With Fees And Our Business Model</p>
               </div>
               <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>
                 <div className={styles.icon}>
-                  <img src="/img/dragon.svg" alt="dragon" />
+                  <img src="/img/excellence.svg" alt="excellence" />
                 </div>
-                <p className={styles.name}>{t('features.feature61')}</p>
-                <p className={styles.description}>{t('features.feature62')}</p>
+                <p className={styles.name}>EXCELLENCE</p>
+                <p className={styles.description}>We Are Continually Trying To Improve Our Service</p>
+              </div>
+              <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>
+                <div className={styles.icon}>
+                  <img src="/img/customer-service.svg" alt="customer service" />
+                </div>
+                <p className={styles.name}>CUSTOMER SERVICE</p>
+                <p className={styles.description}>We Strive To Provide The Best Customer Service Available</p>
+              </div>
+              <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>
+                <div className={styles.icon}>
+                  <img src="/img/trust.svg" alt="trust" />
+                </div>
+                <p className={styles.name}>TRUST</p>
+                <p className={styles.description}>We Are Non Custodial Which Means We Never 
+                  Hold Our Customers Balances Giving You Complete Control Of Your Assets</p>
+              </div>
+              <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>
+                <div className={styles.icon}>
+                  <img src="/img/reliability.svg" alt="reliability" />
+                </div>
+                <p className={styles.name}>RELIABILITY</p>
+                <p className={styles.description}>Our Fast Trade Engine Ensures You Receive Your 
+                  Assets Quicker Than Most If Not All Our Competitors</p>
               </div>
             </div>
           </div>

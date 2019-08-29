@@ -10,9 +10,11 @@ const Features = () => {
         <div className="container">
           <div className={`row ${styles.container}`}>
             <div className="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-              <h2 className={`title ${styles.nomargin}`}>{t('features.heading11')}</h2>
-              <h2 className={`title ${styles.nomargin}`}>{t('features.heading12')}</h2>
-              <h2 className={`title ${styles.nomargin}`}>{t('features.heading13')}</h2>
+              <h1 className={`title ${styles.nomargin}`}>OUR VALUES.</h1>
+              <h1 className={`title ${styles.nomargin}`}>WE ARE SERIOUS ABOUT THEM.</h1>
+              <span className={styles.subtitle}>We Believe Cryptocurrency Is The Future Of Finance And Want 
+                To Provide All British Citizens With 
+                The Opportunity To Be Part Of The Movement And Gains Easy Trusted And Transparent Access To This Resource.</span>
             </div>
             <div className={styles.features}>
               <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>

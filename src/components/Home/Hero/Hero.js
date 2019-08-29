@@ -54,9 +54,7 @@ class Hero extends Component {
                 <div className="col-xs-12">
                   <div className={styles.brand}>
                     <h1>{t('hero.1')}</h1>
-                    <Trans i18nKey="hero.2">
-                      <h2>Simple. Secure. Transparent.</h2>
-                    </Trans>
+                    <h3>{t('hero.2')}</h3>
                   </div>
                 </div>
 

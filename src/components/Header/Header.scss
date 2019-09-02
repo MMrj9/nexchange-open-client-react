@@ -175,7 +175,16 @@
   margin: 2px 0 0 0;
   overflow: hidden;
 
-  img {
-    width: 150px;
+  .logo {
+    display: flex;
+    align-items: flex-end;
+    img {
+      width: 150px;
+    }
+    h1 {
+      color: #fff;
+      font-size: 20px;
+      margin: 0 0 5px 10px;
+    }
   }
 }

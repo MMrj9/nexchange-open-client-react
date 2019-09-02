@@ -18,46 +18,44 @@ const Features2 = () => {
                 <div className={styles.icon}>
                   <img src="/img/no-id-needed.svg" alt="transparent" />
                 </div>
-                <p className={styles.name}>TRANSPARENT</p>
-                <p className={styles.description}>We Are Upfront With Fees And Our Business Model</p>
+                <p className={styles.name}>NO ID NEEDED</p>
+                <p className={styles.description}>Unless Buying With Fiat</p>
               </div>
               <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>
                 <div className={styles.icon}>
                   <img src="/img/decentralized.svg" alt="excellence" />
                 </div>
-                <p className={styles.name}>EXCELLENCE</p>
-                <p className={styles.description}>We Are Continually Trying To Improve Our Service</p>
+                <p className={styles.name}>DECENTRALISED</p>
+                <p className={styles.description}>A Global P2P Network</p>
               </div>
               <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>
                 <div className={styles.icon}>
                   <img src="/img/safe.svg" alt="customer service" />
                 </div>
-                <p className={styles.name}>CUSTOMER SERVICE</p>
-                <p className={styles.description}>We Strive To Provide The Best Customer Service Available</p>
-              </div>
-              <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>
-                <div className={styles.icon}>
-                  <img src="/img/private.svg" alt="trust" />
-                </div>
-                <p className={styles.name}>TRUST</p>
-                <p className={styles.description}>We Are Non Custodial Which Means We Never 
-                  Hold Our Customers Balances Giving You Complete Control Of Your Assets</p>
-              </div>
-              <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>
-                <div className={styles.icon}>
-                  <img src="/img/open-source.svg" alt="reliability" />
-                </div>
-                <p className={styles.name}>RELIABILITY</p>
-                <p className={styles.description}>Our Fast Trade Engine Ensures You Receive Your 
-                  Assets Quicker Than Most If Not All Our Competitors</p>
+                <p className={styles.name}>SAFE</p>
+                <p className={styles.description}>CryptoFX Never Holds Your Funds</p>
               </div>
               <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>
                 <div className={styles.icon}>
                   <img src="/img/easy-to-use.svg" alt="reliability" />
                 </div>
-                <p className={styles.name}>RELIABILITY</p>
-                <p className={styles.description}>Our Fast Trade Engine Ensures You Receive Your 
-                  Assets Quicker Than Most If Not All Our Competitors</p>
+                <p className={styles.name}>PRIVATE</p>
+                <p className={styles.description}>All Personal Info If Any Is Stored Locally And Shared With Noone</p>
+              </div>
+              <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>
+                <div className={styles.icon}>
+                  <img src="/img/private.svg" alt="trust" />
+                </div>
+                <p className={styles.name}>OPEN SOURCE</p>
+                <p className={styles.description}>Complete Transparency</p>
+              </div>
+              <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>
+                <div className={styles.icon}>
+                  <img src="/img/open-source.svg" alt="reliability" />
+                </div>
+                <p className={styles.name}>EASY TO USE</p>
+                <p className={styles.description}>Our Step By Step Video And Graphic Shows You 
+                How To Buy Sell And Trade In Less Than 10 Mins</p>
               </div>
             </div>
           </div>

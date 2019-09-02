@@ -78,9 +78,15 @@ class Header extends Component {
                 <Link to="/">
                   <div className={styles['logo-container']}>
                     {isHomeHeader ? (
-                      <img src="/img/logo_dragondex.svg" alt="Logo" data-test="logo" />
+                      <div className={styles.logo}>
+                        <img src="/img/CryptoFX_logo.png" alt="Logo" data-test="logo" />
+                        <h1>|EXCHANGE</h1>
+                      </div>
                     ) : (
-                      <img src="/img/logo-dragondex.png" alt="Logo" data-test="logo" />
+                      <div className={styles.logo}>
+                        <img src="/img/CryptoFX_logo.png" alt="Logo" data-test="logo" />
+                        <h1>|EXCHANGE</h1>
+                      </div>
                     )}
                   </div>
                 </Link>

@@ -25,7 +25,7 @@ class Testimonials extends Component {
               <div className="container">
                 <div className="row">
                   <div className="col-xs-12">
-                    <h2 className="title">{t('testimonials.title')}</h2>
+                    <h1>{t('testimonials.title')}</h1>
                   </div>
                 </div>
               </div>

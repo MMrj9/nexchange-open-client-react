@@ -10,11 +10,9 @@ const Footer = () => (
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-sm-8 col-md-6">
-              <Trans i18nKey="footer.3">
                 <p className={styles.address}>
-                  All rights reserved, DRAGONDEX 2019<br />Australia{' '}
+                  All rights reserved, CryptoFX 2019, Britain{' '}
                 </p>
-              </Trans>
             </div>
 
             <div className="col-xs-12 col-sm-4 col-md-6">

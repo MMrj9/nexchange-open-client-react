@@ -1,4 +1,7 @@
 .container {
+    h1 {
+        color: #000 !important;
+    }
     
     @media (min-width: $screen-md-min) {
         width: 100%;

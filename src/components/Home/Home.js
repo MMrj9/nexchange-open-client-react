@@ -11,6 +11,7 @@ import SubscriptionForm from './SubscriptionForm/SubscriptionForm';
 import Features from './Features/Features';
 import HowItWorks from './HowItWorks/HowItWorks';
 import Features2 from './Features2/Features2';
+import Promisses from './Promisses/Promisses';
 
 export class Home extends Component {
   componentDidMount() {
@@ -37,6 +38,7 @@ export class Home extends Component {
         <Features />
         <Britain />
         <Features2 />
+        <Promisses />
         <Testimonials />
         <About />
         <SubscriptionForm />

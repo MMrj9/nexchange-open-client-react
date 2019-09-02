@@ -54,7 +54,7 @@ class Hero extends Component {
                 <div className="col-xs-12">
                   <div className={styles.brand}>
                     <h1>{t('hero.1')}</h1>
-                    <h3>{t('hero.2')}</h3>
+                    <h4>{t('hero.2')}</h4>
                   </div>
                 </div>
 

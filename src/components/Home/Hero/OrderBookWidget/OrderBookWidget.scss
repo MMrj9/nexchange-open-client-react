@@ -94,9 +94,9 @@
     }
 
     &.btn-buy {
-      background-color: $green;
+      background-color: $blue;
       &:hover,&:focus {
-        background-color: lighten( $green, 10% );
+        background-color: lighten( $blue, 10% );
       }
     }
 

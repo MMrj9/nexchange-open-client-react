@@ -6,11 +6,11 @@ import { fetchCoinDetails, fetchPairs, changeOrderMode } from 'Actions';
 import Hero from './Hero/Hero';
 import About from './About/About';
 import Testimonials from './Testimonials/Testimonials';
-import RecentOrders from './RecentOrders/RecentOrders';
+import Britain from './Britain/Britain';
 import SubscriptionForm from './SubscriptionForm/SubscriptionForm';
 import Features from './Features/Features';
 import HowItWorks from './HowItWorks/HowItWorks';
-import AllowedCurrencies from './AllowedCurrencies/AllowedCurrencies';
+import Features2 from './Features2/Features2';
 
 export class Home extends Component {
   componentDidMount() {
@@ -35,8 +35,8 @@ export class Home extends Component {
         <Hero {...this.props} />
         <HowItWorks />
         <Features />
-        <RecentOrders />
-        <AllowedCurrencies />
+        <Britain />
+        <Features2 />
         <Testimonials />
         <About />
         <SubscriptionForm />

@@ -48,7 +48,7 @@ h2 {
 }
 
 a {
-  color: $green;
+  color: $blue;
   &:visited,
   &:focus {
     outline: none;
@@ -57,7 +57,7 @@ a {
 
 .btn {
   font-family: 'Clan Offc Pro Medium';
-  background-color: $green;
+  background-color: $blue;
 }
 
 .error {
@@ -65,7 +65,7 @@ a {
 }
 
 .success {
-  color: $green !important;
+  color: $blue !important;
 }
 
 .clickable {
@@ -127,7 +127,7 @@ textarea.form-control:focus {
 }
 
 .text-green {
-  color: $green !important;
+  color: $blue !important;
 }
 
 input {

@@ -23,7 +23,7 @@
     @include btn-styles($black);
   }
   &.btn-primary {
-    @include btn-styles($green);
+    @include btn-styles($blue);
   }
   &.btn-success {
     @include btn-styles($brand-success);

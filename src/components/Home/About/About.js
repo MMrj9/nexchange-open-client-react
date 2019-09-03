@@ -14,11 +14,15 @@ const About = () => (
 
             <div className="col-xs-12">
               <div className="col-xs-12 co-sm-12 col-md-6 col-lg-6" style={{ paddingLeft: 0 }}>
-                <p>{t('about.1')}</p>
+                <p>Our mission – Founded in 2018 by Andrew Kerr, CryptoFX has already helped many 
+                  clients enter into the complicated and daunting world of crypto. 
+                  We noticed a demand for additional support, 
+                  guidance and even new problems both new and not so new investors were facing.</p>
               </div>
               <div className="col-xs-12 co-sm-12 col-md-6 col-lg-6" style={{ paddingRight: 0 }}>
-                <span>{t('about.2')}</span>
-                <p>{t('about.3')}</p>
+                <p>This is why we have made it our misson to provide the best customer service and exchange 
+                  the UK deserves and needed. With our non-custodial solution we never hold your assets, 
+                  YOU as the customer are in complete control.</p>
               </div>
             </div>
           </div>

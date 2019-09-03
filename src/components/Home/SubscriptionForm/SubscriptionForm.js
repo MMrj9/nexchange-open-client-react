@@ -67,7 +67,8 @@ class SubscriptionForm extends React.Component {
         {(t, { i18n }) => (
           <div className={styles.container}>
             <div className="container text-center">
-              <h3>{t('subscription.6')}</h3>
+              <h1>DO YOU HAVE ANY QUESTIONS?</h1>
+              <span className={styles.subtitle}>Don't hesitate and get in touch with us</span>
 
               <form action={action} method="post" noValidate>
                 <div className="col-xs-12 col-ms-8 col-ms-push-2">
@@ -77,7 +78,7 @@ class SubscriptionForm extends React.Component {
                         ref={node => (this.input = node)}
                         type="email"
                         name="email"
-                        placeholder={t('subscription.2')}
+                        placeholder={`Enter your e-mail`}
                         className={`${styles.input} form-control`}
                         required
                       />

@@ -1,11 +1,10 @@
 .container {
   padding: 40px 0 35px;
-  background-color: #fff;
-  background-image: url('/img/background_Anyquestions.svg');
+  background-image: url('/img/Newsletter_background.png');
   background-position: 0 20%;
   background-size: 100%;
   background-repeat: no-repeat;
-  color: #000;
+  color: #fff;
 
   @media (min-width: $screen-sm-min) {
     padding-bottom: 50px;
@@ -32,38 +31,66 @@
       font-size: 18px;
     }
   }
+
+  .subtitle {
+    font-size: 16px;
+    font-weight: bold;
+  }
 }
 
 .input.input.input.input {
   margin-top: 60px;
   padding: 0 0 15px 0;
   font-size: 12px;
-  color: #000;
+  color: #fff;
+  background-color: transparent !important;
 
   @media (min-width: $screen-sm-min) {
     margin-top: 75px;
   }
 
   &::-webkit-input-placeholder {
-    color: #000;
+    color: #fff;
+    font-weight: bold;
     font-size: 12px;
+    background-color: transparent !important;
   }
 
   &::-moz-placeholder {
-    color: #000;
+    color: #fff;
+    font-weight: bold;
     font-size: 12px;
+    background-color: transparent !important;
   }
 
   &:-ms-input-placeholder {
-    color: #000;
+    color: #fff;
+    font-weight: bold;
     font-size: 12px;
+    background-color: transparent !important;
   }
 
   &:-moz-placeholder {
-    color: #000;
+    color: #fff;
+    font-weight: bold;
     font-size: 12px;
+    background-color: transparent !important;
   }
 }
+
+form {
+  background-color: transparent !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+   -webkit-transition-delay: 9999s;
+   transition-delay: 9999s;
+}
+
+
 
 .btn.btn.btn {
   @media (min-width: $screen-sm-min) {

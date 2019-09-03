@@ -9,7 +9,7 @@ const About = () => (
         <div className="container">
           <div className="row">
             <div className="col-xs-12">
-              <h2 className="title">{t('about.title')}</h2>
+              <h2 className="title">ABOUT</h2>
             </div>
 
             <div className="col-xs-12">

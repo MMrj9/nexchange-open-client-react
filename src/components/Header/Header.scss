@@ -6,11 +6,10 @@
   color: #fff;
   z-index: 3;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#94e8ef+3,b8fce8+51 */
-  background: #94e8ef; /* Old browsers */
-  background: -moz-linear-gradient(left,  #fff 3%, #fff 51%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left,  #fff 3%,#fff 51%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right,  #fff 3%,#fff 51%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#94e8ef', endColorstr='#b8fce8',GradientType=1 ); /* IE6-9 */
+  background: #000B2C; /* Old browsers */
+  background: -moz-linear-gradient(left,  #000B2C 3%, #000B2C 51%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  #000B2C 3%,#000B2C 51%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  #000B2C 3%,#000B2C 51%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
   :global .navbar-toggle {
     border: 1px solid $gray;
@@ -59,11 +58,11 @@
 
   .link {
     @media (min-width: $screen-sm-min) {
-      color: #fff;
+      color: #000;
     }
     a {
       @media (min-width: $screen-sm-min) {
-        color: #fff;
+        color: #000;
       }
       @media (max-width: $screen-sm-min) {
         color: #000;
@@ -123,7 +122,12 @@
     background: none !important;
     outline: none !important;
   }
-
+  @media (min-width: $screen-md-min) {
+    color: #fff;
+    a:hover {
+      color: #fff !important;
+    }
+  }
   @media (min-width: $screen-sm-min) {
     padding: 10px;
   }

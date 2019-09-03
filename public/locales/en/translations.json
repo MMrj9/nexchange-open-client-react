@@ -41,7 +41,7 @@
     "max": "Max amount"
   },
   "orderbookwidget": {
-    "disabledmessage1": "DRAGONDEX will soon feature the first multi-chain non custodial order book!",
+    "disabledmessage1": "CryptoFX will soon feature the first multi-chain non custodial order book!",
     "disabledmessage2": "This unique technology will allow you to leverage limit orders and other advanced trading instruments while keeping the safety and simplicity you are familiar with.",
     "disabledmessage3": "- Stay tuned",
     "buy": "Buy",
@@ -73,25 +73,6 @@
     "3": "View on API",
     "4": "Instantly recorded on the blockchain"
   },
-  "howitworks": {
-    "heading": "Our Internal Process",
-    "subtitle": "Cogs and Gears",
-    "text1": "Private wallet - ETHER",
-    "text2": "Access reserves",
-    "text3": "Internal liquidity reserves",
-    "text4": "Instant Exchange",
-    "text5": "Charges a reasonable fee",
-    "text6": "Private wallet - DOGE"
-  },
-  "allowedcurrencies": {
-    "heading": "Allowable Currencies and Tokens",
-    "text111": "DRAGONDEX",
-    "text112": "dragondex.com.au",
-    "text12": "Instant cryptocurrency to cryptocurrency swaps",
-    "text211": "DRAGONDEX powered by N.EXCHANGE",
-    "text212": "N.exchange",
-    "text22": "Instant AUD, USD, EUR to Cryptocurrency"
-  },
   "testimonials": {
     "1": "Testimonials",
     "cryptotalk": "Check Out @NexchangeIO with a Simple, Secure and a transparent exchange that you use without registration.",
@@ -104,12 +85,6 @@
   "pricecomparison": {
     "1": "Real Time Rates",
     "2": "Best rate"
-  },
-  "about": {
-    "title": "About Us",
-    "1": "DRAGONDEX is a decentralised exchange with a focus on: simplicity, security, transparency and dragons.",
-    "2": "Decentralised Exchange:",
-    "3": "A decentralised exchange is an exchange market that does not rely on a third-party service to hold the individual's funds. Instead, trades occur directly between users (peer-to-peer) through an automated process."
   },
   "features": {
     "heading11": "Fresh UI/UX",

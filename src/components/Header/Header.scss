@@ -58,14 +58,14 @@
 
   .link {
     @media (min-width: $screen-sm-min) {
-      color: #000;
+      color: #fff;
     }
     a {
       @media (min-width: $screen-sm-min) {
-        color: #000;
+        color: #fff;
       }
       @media (max-width: $screen-sm-min) {
-        color: #000;
+        color: #fff;
       }
     }
     &:hover {
@@ -87,7 +87,7 @@
 .navbar-nav {
   margin: 0;
   li a.link:hover {
-    text-decoration: underline;
+    text-decoration: none;
     background: none;
   }
 }
@@ -192,6 +192,7 @@
       color: #fff;
       font-size: 20px;
       margin: 0 0 5px 10px;
+      text-decoration: none;
     }
   }
 }

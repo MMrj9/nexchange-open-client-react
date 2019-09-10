@@ -91,7 +91,7 @@ class Order extends Component {
               <OrderCoinsProcessed order={this.state.order} />
 
               <OrderMain {...this.props} />
-              {/* <OrderCta order={this.state.order} /> */}
+              <OrderCta order={this.state.order} />
             </div>
           </div>
         </div>

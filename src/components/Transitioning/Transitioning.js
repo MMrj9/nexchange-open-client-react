@@ -31,8 +31,8 @@ class Transitioning extends Component {
                   <div className={`col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 ${styles.content}`}>
                     <div class={styles.heading}>
                         <div class={styles['heading-section']}>
-                            <img src='/img/dragon2.svg' alt='Dragondex'></img>
-                            <span>DRAGONDEX</span>
+                            <img src='/img/favicon.png' alt='CryptoFX'></img>
+                            <span>CryptoFX</span>
                         </div>
                         <div className={styles.arrow}></div>
                         <div className={styles.arrow}></div>
@@ -44,14 +44,14 @@ class Transitioning extends Component {
                         <div className={styles.arrow}></div>
                         <div className={styles.arrow}></div>
                         <div class={styles['heading-section']}>
-                            <img src='/img/nexchange.svg' alt='N.Exchange'></img>
+                            <img src='/img/logo.png' alt='N.Exchange'></img>
                             <span>N.EXCHANGE</span>
                         </div>
                     </div>
-                    <p>You are now transitioning from <strong>DRAGONDEX</strong> to <strong>N.EXCHANGE</strong>&nbsp;
+                    <p>You are now transitioning from <strong>CryptoFX</strong> to <strong>N.EXCHANGE</strong>&nbsp;
                     to make a FIAT to Cryptocurrency transaction</p>
                     <p className={styles.nomargin}>Fiat to Cryptocurrency functionality provided by N.EXCHANGE.</p>
-                    <p>DRAGONDEX is an affiliate of n.exchange.</p>
+                    <p>CryptoFX is an affiliate of n.exchange.</p>
                     <p class={styles.small}>Australian Dollars, US Dollars, Euro - <strong>Accepted</strong></p>
                     <p class={styles.smaller}>Please read n.exchange&nbsp;	
                         <a href='https://n.exchange/terms-and-conditions/' target="_blank">Privacy Policy</a> 

@@ -95,14 +95,50 @@ class Header extends Component {
               <div className="collapse navbar-collapse" id="navigation-index">
                 <ul className="nav navbar-nav navbar-right">
                   <li>
-                    <Link onClick={() => this.closeNavbar()} to="/#about" className={styles.link}>
-                        {t('header.about')}
+                    <Link onClick={() => this.closeNavbar()} to="/" className={styles.link}>
+                        HOME
                     </Link>
                   </li>
 
                   <li>
                    <Link onClick={() => this.closeNavbar()} to="/faqs" className={styles.link} data-test="faq-btn">
-                        {t('header.faq')}
+                        FAQ
+                    </Link>
+                  </li>
+
+                  <li>
+                   <Link onClick={() => this.closeNavbar()} to="/" className={styles.link} data-test="faq-btn">
+                        MORE INFO
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link onClick={() => this.closeNavbar()} to="/faqs" className={styles.link} data-test="faq-btn">
+                        LATEST
+                    </Link>
+                  </li>
+
+                  <li>
+                   <Link onClick={() => this.closeNavbar()} to="/faqs" className={styles.link} data-test="faq-btn">
+                        TELEGRAM
+                    </Link>
+                  </li>
+
+                  <li>
+                   <Link onClick={() => this.closeNavbar()} to="/faqs" className={styles.link} data-test="faq-btn">
+                        LEDGER
+                    </Link>
+                  </li>
+
+                  <li>
+                   <Link onClick={() => this.closeNavbar()} to="/faqs" className={styles.link} data-test="faq-btn">
+                        RECOMMENDATIONS
+                    </Link>
+                  </li>
+
+                  <li>
+                   <Link onClick={() => this.closeNavbar()} to="/faqs" className={styles.link} data-test="faq-btn">
+                        WHITE PAPER
                     </Link>
                   </li>
 

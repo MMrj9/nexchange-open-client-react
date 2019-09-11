@@ -137,7 +137,7 @@ class FAQ extends Component {
                   answer={
                     <div>
                       <div>
-                        <p>CryptoFX is located in United Kingdom.</p>
+                        <p>CryptoFX is located in the United Kingdom.</p>
                         <p>The exchange platform is accessible globally.</p>
                       </div>
                     </div>

@@ -2,7 +2,7 @@ const config = {
   NAME: 'Dragondex',
   DOMAIN: 'https://dragondex.com.au',
   API_BASE_URL: 'https://api.nexchange.io/en/api/v1', 
-  SUPPORT_EMAIL: 'support@n.exchange',
+  SUPPORT_EMAIL: 'support@cryptofxglobal.net',
   PRICE_FETCH_INTERVAL: 60000,
   ORDER_BOOK_FETCH_INTERVAL: 10000,
   ORDER_DETAILS_FETCH_INTERVAL: 20000,

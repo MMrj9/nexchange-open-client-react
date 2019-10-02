@@ -17,6 +17,7 @@ const Britain = () => {
                 </span>
             </div>
             <div className={`col-sm-12 ${styles.cardlist}`}>
+              <div className="row">
                 <div className={`col-sm-12 col-md-6 col-lg-4 ${styles.cardouter}`}>
                   <div className={styles.card}>
                     <div className={styles.icon}>
@@ -41,6 +42,8 @@ const Britain = () => {
                     <span>HOW TO BUY BITCOIN?</span>
                   </div>
                 </div>
+                </div>
+                <div className="row">
                 <div className={`col-sm-12 col-md-6 col-lg-4 ${styles.cardouter}`}>
                   <div className={styles.card}>
                     <div className={styles.icon}>
@@ -56,6 +59,7 @@ const Britain = () => {
                     </div>
                     <span>FREE ONLINE WALLETS</span>
                   </div>
+                </div>
                 </div>
             </div>
         </div>

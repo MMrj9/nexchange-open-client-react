@@ -19,7 +19,7 @@ const Features2 = () => {
                   <img src="/img/no-id-needed.svg" alt="transparent" />
                 </div>
                 <p className={styles.name}>NO ID NEEDED</p>
-                <p className={styles.description}>Unless Buying With Fiat</p>
+                <p className={styles.description}>Unless Buying With GBP, USD, RUB, EUR, JPY</p>
               </div>
               <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>
                 <div className={styles.icon}>
@@ -40,7 +40,7 @@ const Features2 = () => {
                   <img src="/img/easy-to-use.svg" alt="reliability" />
                 </div>
                 <p className={styles.name}>PRIVATE</p>
-                <p className={styles.description}>All Personal Info If Any Is Stored Locally And Shared With Noone</p>
+                <p className={styles.description}>All Personal Info If Any Is Stored Locally And Shared With No One</p>
               </div>
               <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>
                 <div className={styles.icon}>

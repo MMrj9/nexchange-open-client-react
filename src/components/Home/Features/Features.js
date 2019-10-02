@@ -13,9 +13,10 @@ const Features = () => {
               <h1 className={`title ${styles.nomargin}`}>OUR VALUES.</h1>
               <h1 className={`title ${styles.nomargin}`}>WE ARE SERIOUS ABOUT THEM.</h1>
               <br/>
-              <span className={styles.subtitle}>We Believe Cryptocurrency Is The Future Of Finance And Want 
-                To Provide All British Citizens With 
-                The Opportunity To Be Part Of The Movement And Gains Easy Trusted And Transparent Access To This Resource.</span>
+              <span className={styles.subtitle}>We Believe Cryptocurrency Is The Future Of Finance 
+              And Want To Provide Everyone With a Equal Chance and Opportunity To Be Part Of The Movement 
+              And Potential Monetary Gains. Provide Easy Trusted And Transparent Access 
+              To This Brand New And Exciting Asset Class.</span>
             </div>
             <div className={styles.features}>
               <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>

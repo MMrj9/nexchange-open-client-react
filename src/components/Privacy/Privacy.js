@@ -19,7 +19,7 @@ const Privacy = props => {
                 <p>
                   This Privacy Policy explains how “CryptoFX.”, and its wholly owned subsidiaries (collectively, “CryptoFX.” we or us),
                   collects, uses, discloses and protects your information. This policy applies to information we collect when you access or
-                  use “CryptoFX.” websites and mobile applications (collectively, CryptoFX services) or otherwise interact with us as
+                  use “CryptoFX.” websites and mobile applications (collectively, The GB DEX services) or otherwise interact with us as
                   described below. “CryptoFX.” provides the “CryptoFX.” Services through local operating entities that are wholly owned
                   subsidiaries of “CryptoFX.” (each, a “CryptoFX.” Company). To determine which “CryptoFX.” Company collects your information
                   and is responsible for processing your data.
@@ -234,7 +234,7 @@ const Privacy = props => {
 
                 <p>
                   If you have a complaint regarding “CryptoFX.” compliance with the U.S.-EU Safe Harbor Framework or the U.S.-Swiss Safe
-                  Harbor Framework, first contact us through support at support@cryptofxglobal.net. “CryptoFX.” has elected to use JAMS arbitration
+                  Harbor Framework, first contact us through support at support@thegbdex.com. “CryptoFX.” has elected to use JAMS arbitration
                   as an independent recourse mechanism available to settle unresolved complaints regarding “CryptoFX.” Safe Harbor
                   commitments. Please refer to the section titled “Applicable Law; Arbitration” in our Terms of Service
                   /en/articles/legal_privacy
@@ -246,7 +246,7 @@ const Privacy = props => {
 
                 <p>
                   Account Information: You may access and review or update your online account information at any time by logging into your
-                  account and viewing your profile. If you want to close your account, please contact us at support@cryptofxglobal.net. However,
+                  account and viewing your profile. If you want to close your account, please contact us at support@thegbdex.com. However,
                   please note that if you close your account, we may retain your information as required by law or for our legitimate
                   business purposes, such as to collect fees owed, resolve disputes, troubleshoot problems, assist with any investigations,
                   prevent fraud or enforce our user agreements.
@@ -254,7 +254,7 @@ const Privacy = props => {
 
                 <p>
                   Communications Preferences: You may opt out of receiving promotional communications from “CryptoFX.” by following the
-                  instructions in those communications. You may also opt out of receiving the CryptoFX newsletter or certain
+                  instructions in those communications. You may also opt out of receiving the The GB DEX newsletter or certain
                   administrative emails by modifying your communications preferences through the settings feature of your online account. If
                   you opt out of receiving promotional communications, we may still send you transactional or relationship messages, such as
                   those about your account or our ongoing business relations.
@@ -274,7 +274,7 @@ const Privacy = props => {
                   add-on permits, but choosing to remove or disable our cookies may interfere with your use and functionality of the “YOA
                   LTD.” Services. Additionally, we may use certain persistent cookies that are not affected by your browser settings, but
                   will use such cookies solely for identity verification and fraud prevention purposes. For more information about cookies
-                  and how to block, delete or disable them, please refer to your browser instructions, or contact us at support@cryptofxglobal.net.
+                  and how to block, delete or disable them, please refer to your browser instructions, or contact us at support@thegbdex.com.
                 </p>
               </Trans>
 
@@ -298,7 +298,7 @@ const Privacy = props => {
                 <h2>Contact us</h2>
                 <p>
                   If you have any questions or concerns regarding this Privacy Policy, please contact us at{' '}
-                  <a href="mailto:support@cryptofxglobal.net">support@cryptofxglobal.net</a>.
+                  <a href="mailto:support@thegbdex.com">support@thegbdex.com</a>.
                 </p>
               </Trans>
             </div>

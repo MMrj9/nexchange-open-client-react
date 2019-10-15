@@ -19,7 +19,7 @@ describe('QuestionAnswer', () => {
             </p>
             <p>We will be adding more currencies very soon, stay tuned!</p>
             <p>
-              Missing your favorite coin? Let us know here: <a href="mailto:support@cryptofxglobal.net">support@cryptofxglobal.net</a>.
+              Missing your favorite coin? Let us know here: <a href="mailto:support@thegbdex.com">support@thegbdex.com</a>.
             </p>
           </div>
         }

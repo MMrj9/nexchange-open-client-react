@@ -11,7 +11,7 @@ const Footer = () => (
           <div className="row">
             <div className="col-xs-12 col-sm-8 col-md-6">
                 <p className={styles.address}>
-                  All rights reserved, CryptoFX 2019, Britain{' '}
+                  All rights reserved, The GB DEX 2019, Britain{' '}
                 </p>
             </div>
 

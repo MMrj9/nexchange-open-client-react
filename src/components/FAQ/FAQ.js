@@ -137,7 +137,7 @@ class FAQ extends Component {
                   answer={
                     <div>
                       <div>
-                        <p>CryptoFX is located in the United Kingdom.</p>
+                        <p>The GB DEX is located in the United Kingdom.</p>
                         <p>The exchange platform is accessible globally.</p>
                       </div>
                     </div>
@@ -151,7 +151,7 @@ class FAQ extends Component {
                   answer={
                     <div>
                       <div>
-                        <p>CryptoFX transfers are instant.</p>
+                        <p>The GB DEX transfers are instant.</p>
                         <p>The transaction time depends on the blockchain.</p>
                       </div>
                     </div>
@@ -164,7 +164,7 @@ class FAQ extends Component {
                   openSupportModal={this.openSupportModal}
                   answer={
                     <div>
-                      <p>In order to use CryptoFX you need to have your own wallet.</p>
+                      <p>In order to use The GB DEX you need to have your own wallet.</p>
                       <p>MetaMask functionality has been provided.</p>
                     </div>
                   }

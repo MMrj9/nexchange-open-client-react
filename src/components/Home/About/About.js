@@ -14,7 +14,7 @@ const About = () => (
 
             <div className="col-xs-12">
               <div className="col-xs-12 co-sm-12 col-md-6 col-lg-6" style={{ paddingLeft: 0 }}>
-                <p>Our mission – Founded in 2018 by Andrew Kerr, CryptoFX has already helped many 
+                <p>Our mission – Founded in 2018 by Andrew Kerr, The GB DEX has already helped many 
                   clients enter into the complicated and daunting world of crypto. 
                   We noticed a demand for additional support, 
                   guidance and even new problems both new and not so new investors were facing.</p>

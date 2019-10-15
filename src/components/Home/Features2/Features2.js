@@ -33,7 +33,7 @@ const Features2 = () => {
                   <img src="/img/safe.svg" alt="customer service" />
                 </div>
                 <p className={styles.name}>SAFE</p>
-                <p className={styles.description}>CryptoFX Never Holds Your Funds</p>
+                <p className={styles.description}>The GB DEX Never Holds Your Funds</p>
               </div>
               <div className={`col-xs-12 col-sm-12 col-md-4 col-lg-4 ${styles.feature}`}>
                 <div className={styles.icon}>

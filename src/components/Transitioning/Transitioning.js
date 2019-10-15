@@ -51,7 +51,7 @@ class Transitioning extends Component {
                     <p>You are now transitioning from <strong>CryptoFX</strong> to <strong>N.EXCHANGE</strong>&nbsp;
                     to make a FIAT to Cryptocurrency transaction</p>
                     <p className={styles.nomargin}>Fiat to Cryptocurrency functionality provided by N.EXCHANGE.</p>
-                    <p>CryptoFX is an affiliate of n.exchange.</p>
+                    <p>The GB DEX is an affiliate of n.exchange.</p>
                     <p class={styles.small}>Australian Dollars, US Dollars, Euro - <strong>Accepted</strong></p>
                     <p class={styles.smaller}>Please read n.exchange&nbsp;	
                         <a href='https://n.exchange/terms-and-conditions/' target="_blank">Privacy Policy</a> 

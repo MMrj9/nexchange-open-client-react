@@ -12,6 +12,7 @@ import Features from './Features/Features';
 import HowItWorks from './HowItWorks/HowItWorks';
 import Features2 from './Features2/Features2';
 import Promisses from './Promisses/Promisses';
+import Team from './Team/Team';
 
 export class Home extends Component {
   componentDidMount() {
@@ -41,6 +42,7 @@ export class Home extends Component {
         <Promisses />
         <Testimonials />
         <About />
+        <Team />
         <SubscriptionForm />
       </div>
     );

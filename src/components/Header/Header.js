@@ -80,12 +80,10 @@ class Header extends Component {
                     {isHomeHeader ? (
                       <div className={styles.logo}>
                         <img src="/img/CryptoFX_logo.png" alt="Logo" data-test="logo" />
-                        <h1>|EXCHANGE</h1>
                       </div>
                     ) : (
                       <div className={styles.logo}>
                         <img src="/img/CryptoFX_logo.png" alt="Logo" data-test="logo" />
-                        <h1>|EXCHANGE</h1>
                       </div>
                     )}
                   </div>
@@ -126,19 +124,7 @@ class Header extends Component {
 
                   <li>
                    <Link onClick={() => this.closeNavbar()} to="/faqs" className={styles.link} data-test="faq-btn">
-                        LEDGER
-                    </Link>
-                  </li>
-
-                  <li>
-                   <Link onClick={() => this.closeNavbar()} to="/faqs" className={styles.link} data-test="faq-btn">
                         RECOMMENDATIONS
-                    </Link>
-                  </li>
-
-                  <li>
-                   <Link onClick={() => this.closeNavbar()} to="/faqs" className={styles.link} data-test="faq-btn">
-                        WHITE PAPER
                     </Link>
                   </li>
 

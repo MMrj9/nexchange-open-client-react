@@ -35,7 +35,6 @@ export class Home extends Component {
     return (
       <div>
         <Hero {...this.props} />
-        <HowItWorks />
         <Features />
         <Britain />
         <Features2 />

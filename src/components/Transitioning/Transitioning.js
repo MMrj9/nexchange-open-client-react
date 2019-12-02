@@ -31,8 +31,8 @@ class Transitioning extends Component {
                   <div className={`col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2 ${styles.content}`}>
                     <div class={styles.heading}>
                         <div class={styles['heading-section']}>
-                            <img src='/img/favicon.png' alt='CryptoFX'></img>
-                            <span>CryptoFX</span>
+                            <img id="thegbdex" src='/img/CryptoFX_logo.png' alt='CryptoFX' 
+                            style={{maxWidth: 140, filter: "invert(100%)"}}></img>
                         </div>
                         <div className={styles.arrow}></div>
                         <div className={styles.arrow}></div>
@@ -48,7 +48,7 @@ class Transitioning extends Component {
                             <span>N.EXCHANGE</span>
                         </div>
                     </div>
-                    <p>You are now transitioning from <strong>CryptoFX</strong> to <strong>N.EXCHANGE</strong>&nbsp;
+                    <p>You are now transitioning from <strong>The GB DEX</strong> to <strong>N.EXCHANGE</strong>&nbsp;
                     to make a FIAT to Cryptocurrency transaction</p>
                     <p className={styles.nomargin}>Fiat to Cryptocurrency functionality provided by N.EXCHANGE.</p>
                     <p>The GB DEX is an affiliate of n.exchange.</p>

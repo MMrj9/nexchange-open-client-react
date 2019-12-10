@@ -19,7 +19,6 @@ import TermsConditions from 'Components/TermsConditions/TermsConditions';
 import Privacy from 'Components/Privacy/Privacy';
 
 import setAuthToken from 'Utils/setAuthToken';
-import crispEmailBinding from 'Utils/crispEmailBinding';
 
 import reducers from './reducers';
 import './css/index.scss';
@@ -35,7 +34,6 @@ const enhancer = composeEnhancers(applyMiddleware(thunk));
 const store = createStore(reducers, enhancer);
 
 setAuthToken();
-crispEmailBinding(store);
 require('Utils/bindGa');
 
 ReactDOM.render(

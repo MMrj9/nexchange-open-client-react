@@ -372,10 +372,6 @@ export const setUserEmail = formData => async dispatch => {
 
   return request
     .then(res => {
-      if (!window.$crisp.get('user:email')) {
-        window.$crisp.push(['set', 'user:email', [payload.email]]);
-      }
-
       dispatch({
         type: types.SET_EMAIL_AND_MESSAGE,
         value: res.data.email,

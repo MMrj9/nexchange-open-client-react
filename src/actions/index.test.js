@@ -641,9 +641,6 @@ describe('actions', () => {
   it('setUserEmail (with token and success)', () => {
     const payload = 'email@email.com';
 
-    window.$crisp = {};
-    window.$crisp.get = jest.fn();
-    window.$crisp.push = jest.fn();
 
     axiosMock
       .onPut('https://api.nexchange.io/en/api/v1/users/me/', { email: payload })
@@ -669,9 +666,6 @@ describe('actions', () => {
   it('setUserEmail (with token and no success)', () => {
     const payload = 'email@email.com';
 
-    window.$crisp = {};
-    window.$crisp.get = jest.fn();
-    window.$crisp.push = jest.fn();
 
     axiosMock.onPut('https://api.nexchange.io/en/api/v1/users/me/', { email: payload }).reply(500);
     localStorage.setItem('token', 'some token');

@@ -1,6 +1,6 @@
 const config = {
   NAME: 'Dragondex',
-  DOMAIN: 'https://dragondex.com.au',
+  DOMAIN: 'https://thegbdex.com',
   API_BASE_URL: 'https://api.n.exchange/en/api/v1', 
   SUPPORT_EMAIL: 'support@thegbdex.com',
   PRICE_FETCH_INTERVAL: 60000,

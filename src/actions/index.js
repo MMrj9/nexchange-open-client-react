@@ -58,11 +58,6 @@ export const fetchCoinDetails = () => dispatch => {
         coins = _.filter(response.data, {
           has_enabled_pairs_for_test: true
         });
-      } else if (isWhiteLabel) {
-        coins = _.filter(response.data, {
-          has_enabled_pairs: true,
-          is_crypto: true,
-        });
       } else {
         coins = _.filter(response.data, {
           has_enabled_pairs: true
